@@ -45,6 +45,8 @@ Note that to download the necessary MIDI files, uncomment the second code cell i
 
 The last cell in the code will output a MIDI file of the results. You can then use the MIDI file in another program to play the results or add instrumentation.
 
+Rather than training a model from scratch, you can load a pre-trained model with the '2018-11-09-16/45/04.528977-50-0.9791.hdf5' file. The code for that is in the section "Define and Fit the Model" in the last code cell of that section.
+
 # Ideas for Further Development
 * vary the sequence length for training. Currently the sequence length is 50
 * try smaller batch size, which is currently 32
