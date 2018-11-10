@@ -48,6 +48,8 @@ The last cell in the code will output a MIDI file of the results. You can then u
 # Ideas for Further Development
 * vary the sequence length for training. Currently the sequence length is 50
 * try smaller batch size, which is currently 32
+* transpose all training sets into the same starting key
+* create a major model and a minor model for different fugues
 
 # Acknowledgements
 [Text Generation With LSTM Recurrent Neural Networks in Python with Keras
