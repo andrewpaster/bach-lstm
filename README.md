@@ -49,7 +49,7 @@ Rather than training a model from scratch, you can load a pre-trained model with
 
 # Ideas for Further Development
 * vary the sequence length for training. Currently the sequence length is 50
-* try smaller batch size, which is currently 32
+* try smaller batch size, which is currently 32, and/or more epochs
 * transpose all training sets into the same starting key
 * create a major model and a minor model for different fugues
 
