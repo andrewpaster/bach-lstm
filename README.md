@@ -6,6 +6,8 @@ To create music, a random seed is chosen from the training set. Every time the a
 
 The output was then imported in a DAW (Digital Audio Workstation) where everything was forced into Cmajor. You can hear the results here on youtube [https://www.youtube.com/watch?v=uh3myqiX7es](https://www.youtube.com/watch?v=uh3myqiX7es)
 
+In this example, there is no training and validation set because there isn't necessarily a strict idea behind overfitting and underfitting. With enough LSTM layers and epochs, the network could essentially memorize the Fugues. But the idea with this project is to get some amount of Bach's style but create something new.
+
 # Files
 * Bach_well_tempered.ipynb - code for downloading data, cleaning data, training model, and outputting results
 * 2018-11-09 16/45/04.528977-50-0.9791.hdf5 - trained model that can be used instead of running the code to train from scratch
@@ -49,7 +51,7 @@ Rather than training a model from scratch, you can load a pre-trained model with
 
 # Ideas for Further Development
 * vary the sequence length for training. Currently the sequence length is 50
-* try smaller batch size, which is currently 32, and/or more epochs
+* try different batch sizes and more epochs
 * transpose all training sets into the same starting key
 * create a major model and a minor model for different fugues
 
